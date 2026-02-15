@@ -1,0 +1,203 @@
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image : url("https://wallpapercave.com/wp/wp2349419.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+font-family: arial, sans-serif;
+
+}
+/* header */
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+/* Header */
+header {
+  background: #111;
+  padding: 15px 50px;
+}
+
+/* Menu */
+.menu {
+  list-style:none;
+  display: flex;
+  gap: 50px;
+}
+
+.menu-item {
+  position: relative;
+}
+
+/* Links */
+.menu-item a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px;
+  display: block;
+}
+
+/* Hover effect */
+.menu-item a:hover {
+  color: #00ffcc;
+}
+
+/* Dropdown box */
+.dropdown {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background: #222;
+  min-width: 180px;
+  padding: 15px;
+  display: none;
+  border-radius: 6px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+
+/* Show on hover */
+.menu-item:hover .dropdown {
+  display: block;
+}
+
+/* Dropdown links */
+.dropdown a {
+  display: block;
+  color: #ccc;
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.dropdown a:hover {
+  color: #00ffcc;
+}
+
+/* Search box */
+.dropdown input {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border-radius: 4px;
+}
+
+header{
+    background: #161b22;
+    padding: 2px;
+    text-align: center-right;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+header h1{
+    padding: 10px,20px;
+    margin: 20px;
+    text-align: left;
+    color:burlywood;
+}
+
+nav{
+    margin-right: 10px;
+
+    text-align: right;
+    
+}
+nav a{
+
+    color: cyan;
+    text-decoration:none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align:left;
+    margin: 0 15px;
+    font-weight: bold;
+    
+}
+nav a:hover{
+    color: rgb(157, 56, 56);
+}
+/* Hero */
+.hero {
+    height: 300px;
+    text-align: left;
+    padding-top: 50px;
+    margin-top: 15px;
+    margin-left: 5%;
+    color: #ebc63f;;
+
+}
+.hero h2{
+    text-shadow: 2px 2px 10px rgba(2,2,2,2,8);
+    padding: 0;
+    font-size: 36px;
+    margin-left: 20px;
+
+}
+.hero p{
+    font-size: medium;
+    margin-left: 30px;
+    color: rgb(182, 190, 148);
+}
+.hero button{
+
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background:red;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.hero button:hover{
+    background: cyan;
+    color: black;
+}
+/* Section */
+section{
+    padding: 40px020px;
+    text-align: center;
+}
+/* Register */
+m
+.reg-form{
+  margin-top: 90%;
+  display: flex;
+  justify-content: center 7px;
+  gap: 10;
+  flex-wrap:wrap-reverse;
+
+}
+.register input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+.register button{
+    width: 100%;
+    padding: 10px;
+    background: red;
+    color: white;
+    border: none;
+}
+/* Footer */
+
+  footer {
+
+    margin-top: auto; /* Pushes footer to the bottom of the page */
+    padding: 10px;
+    background: #111;
+    text-align: center;
+    border-top: 1px solid #333;
+  }
+    
